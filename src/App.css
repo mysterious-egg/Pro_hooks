@@ -1,0 +1,20 @@
+/* Make sure html and body take up the full viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  min-height: 100vh; /* 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  background-color: #ccc7c7;
+}
+
+h1, h2 {
+  color: rgb(241, 154, 154);
+  text-align: center;
+}
